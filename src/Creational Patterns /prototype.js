@@ -18,8 +18,8 @@ var Shape = function(x, y, color) {
   this.color = color;
   this.move = function(x, y) {
     this.x = x;
-    this.y = y
-  }
+    this.y = y;
+  };
   this.clone = function() {};
 };
 
@@ -75,22 +75,22 @@ ArrayOfShapes(rectangle, 2);
  *
  */
 
- circle
- rectangle
+circle;
+rectangle;
 
 /**
- * Move circle to 100, 100 but also save its current postinion for future ref
+ * Move circle to 100, 100 but also save its current position for future ref
  */
- 
- var history = []
 
- history.push(circle.clone())
- circle.move(100,100)
- circle
+var history = [];
 
- history.push(rectangle.clone())
-rectangle.move(120,80)
-rectangle
+history.push(circle.clone());
+circle.move(100, 100);
+circle;
+
+history.push(rectangle.clone());
+rectangle.move(120, 80);
+rectangle;
 
 // history object containing previous position of shapes
- history
+history;
