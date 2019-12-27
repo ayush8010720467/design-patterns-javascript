@@ -76,8 +76,8 @@ console.log(bag.getItems());
 console.log(bag.getPrice());
 
 /**
- * Another exampe - Moving a Single shape vs Moving a Group of Shapes.
- * Just call te move function of Grou, It will iterate over
+ * Another example - Moving a Single shape vs Moving a Group of Shapes.
+ * Just call the move function of Group, It will iterate over
  * all child shapes and move them.
  * Note: A Group can also have multiple groups as a child.
  */
